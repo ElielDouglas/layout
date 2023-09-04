@@ -1,6 +1,7 @@
 # React + Vite
+Projeto Layout By Maeztra
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi feito utilizando React, Sass, a biblioteca Swiper para carrossel.
 
 Currently, two official plugins are available:
 
