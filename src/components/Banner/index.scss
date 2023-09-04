@@ -1,0 +1,25 @@
+.container-banner{
+  max-width: 1920px;
+  margin: 0 auto;
+  .banner{
+    display: flex;
+    width: calc(1920px - 160px);
+    .text{
+      padding: 100px 160px;
+      padding-bottom: 0;
+      width: 40%;
+      h2{
+        text-align: left;
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+    .img{
+      height:580px;
+      width: 60%;
+      background-image: url('../../assets/img/banner.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

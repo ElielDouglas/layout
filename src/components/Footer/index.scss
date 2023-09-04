@@ -1,0 +1,40 @@
+footer{
+  bottom: 0;
+  background-color: #353535;
+  .container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    padding: 26px 160px;
+    margin: 0 auto;
+    .socials{
+      img{
+        width: 32px;
+        height: 32px;    
+        margin-right: 22px;
+      }
+    }
+    .cards{
+      img{
+        width: 32px;
+        height: 32px;    
+        margin-right: 22px;
+      }
+    }
+    .logos{
+      display: flex;
+      justify-content: center;
+      .item{
+        display: flex;
+        margin-right: 20px;
+        flex-direction: column;
+        span{
+          font-size: 10px;
+          color:#fff;
+        }
+      }
+    }
+  }
+  
+}

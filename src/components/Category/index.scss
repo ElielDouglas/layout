@@ -1,0 +1,21 @@
+.container-category{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  span{
+    padding: 10px 40px;
+    font-size: 14px;
+    line-height: 21px;
+    color:#353535;
+    cursor: pointer;
+    &:hover{
+      color:#FAA500;
+    }
+
+  }
+
+}
